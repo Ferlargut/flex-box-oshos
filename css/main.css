@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;   
+    padding: 0;  
+    font-family: 'Lakki Reddy', cursive; 
 }
 body{
     background: RGB(230, 230, 250);
@@ -30,7 +31,8 @@ header{
     -webkit-border-radius: 10px 10px 10px 10px; 
     height: 40px;    
 }
-.container-img{
+.container-img{    
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -62,19 +64,22 @@ header{
        align-items: center;
    }
    .container-article{
+      
         display: flex;
         flex-direction: row;            
         justify-content: space-between;
         width: 100%;
         align-items:flex-start;
    }
-   .article{
+   .article{         
        border: 3px solid gray;
        width: 50%;
        margin: 10px;
        padding: 10px;
        font-family: 'Risque', cursive;
-       font-size: 18px;       
+       font-size: 18px;  
+       visibility: visible; 
+          
    }
- 
+  
 
