@@ -38,8 +38,32 @@ header{
 }
 .img-polar{   
     margin: 40px ;
-    border: 3px solid gray;
-    
-   
+    border: 3px solid gray;   
+   }
+   .button-container{
+       display: flex;
+       flex-direction: row;            
+       justify-content: space-around;
+       
+   }
+   .button{
+       background: RGB(102, 205, 170);  
+       font-size: 150%;
+       align-items: center;
+   }
+   .container-article{
+        display: flex;
+        flex-direction: row;            
+        justify-content: space-between;
+        width: 100%;
+        align-items:flex-start;
+   }
+   .article{
+       border: 3px solid gray;
+       width: 50%;
+       margin: 10px;
+       padding: 10px;
+       font-family: 'Risque', cursive;
+       font-size: 18px;       
    }
 
