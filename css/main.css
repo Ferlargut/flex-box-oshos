@@ -34,10 +34,20 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: flex-start;
     
 }
-.img-polar{   
+    .container-x{
+        display: flex;
+        flex-direction: column;
+}
+    .img{
+       font-family: 'Flavors', cursive;
+       color:RGB(0, 139, 139);
+   }
+    .img-polar{   
     margin: 40px ;
+    margin-top: 20px;
     border: 3px solid gray;   
    }
    .button-container{
@@ -66,4 +76,5 @@ header{
        font-family: 'Risque', cursive;
        font-size: 18px;       
    }
+ 
 
