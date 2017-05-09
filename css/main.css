@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+body{
+    background: RGB(230, 230, 250);
+}
+header{
+    background-color: RGB(0, 139, 139);
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: row;   
+    height: 60px;   
+    justify-content: space-between;
+    width: 100%;
+    align-items:center;
+}
+.item:hover{background: RGB(224, 255, 255);}
+.item {    
+    font-family: 'Lakki Reddy', cursive;
+    margin: 5px;
+    padding: 10px;
+    background-color: RGB(102, 205, 170);
+    border: 1px solid black;  
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px; 
+    height: 40px;    
+}
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.img-polar{   
+    margin: 40px ;
+    border: 3px solid gray;
+    
+   
+   }
+
